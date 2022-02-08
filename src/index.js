@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {orders1,orders2} from './orders.js';
 
+//var orders2 = JSON.parse(fs.readFileSync('../data/orders2.json'));
+console.log(orders1);
+console.log(orders2);
 ReactDOM.render(
   <React.StrictMode>
     <App />
